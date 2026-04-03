@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Sanjeev Durge — Personal Portfolio</h1>
 
-[![Site preview](/public/site-preview.png)](https://github.com/SanjeevDurge/portfolio)
+[![Site preview](/public/site-preview-sd.png)](https://github.com/SanjeevDurge/portfolio)
 
 Data science portfolio showcasing projects in ML, AI, and MLOps. Built with [Remix](https://remix.run/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). Deployed on [Vercel](https://vercel.com).
 
