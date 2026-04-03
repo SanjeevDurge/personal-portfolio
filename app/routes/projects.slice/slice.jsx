@@ -40,10 +40,15 @@ import { media } from '~/utils/style';
 import { baseMeta } from '~/utils/meta';
 import styles from './slice.module.css';
 
-const title = 'Biomedical image collaboration';
+const title = 'Multi-Agent AI System';
 const description =
-  'This project involved designing a better way for biomedical educators and learners to annotate digital slides together.';
-const roles = ['User Research', 'UX Design', 'Interface Design'];
+  'Designed a LangChain multi-agent system with ReAct reasoning loops and structured SQL tool-calling, automating complex analytical queries across 10+ data sources and reducing analyst report generation time by 65%.';
+const roles = [
+  'LangChain',
+  'ReAct Reasoning',
+  'SQL Tool-Calling',
+  'Streamlit',
+];
 
 export const meta = () => {
   return baseMeta({ title, description, prefix: 'Projects' });
@@ -64,7 +69,7 @@ export const Slice = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.best.edu.au/s/q2yjjvl7?data=8%404!9%4020303!10%40-15087&version=1"
+          url="https://share.streamlit.io/user/sanjeevdurge"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -74,7 +79,7 @@ export const Slice = () => {
               width={800}
               height={500}
               placeholder={sliceAppPlaceholder}
-              alt="The Slice web application showing a selected user annotation."
+              alt="Multi-Agent AI system dashboard showing analytical results"
               sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 90vw, 80vw`}
             />
           </ProjectSectionContent>

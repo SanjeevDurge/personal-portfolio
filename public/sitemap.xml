@@ -1,38 +1,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hamishw.com/</loc>
+    <loc>https://sanjeev-durge.vercel.app/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/contact/</loc>
+    <loc>https://sanjeev-durge.vercel.app/contact/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/articles/</loc>
+    <loc>https://sanjeev-durge.vercel.app/articles/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/uses/</loc>
+    <loc>https://sanjeev-durge.vercel.app/uses/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/projects/slice/</loc>
+    <loc>https://sanjeev-durge.vercel.app/projects/smart-sparrow/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/projects/smart-sparrow/</loc>
+    <loc>https://sanjeev-durge.vercel.app/projects/slice/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/projects/volkihar-knight/</loc>
+    <loc>https://sanjeev-durge.vercel.app/projects/volkihar-knight/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/articles/hello-world</loc>
+    <loc>https://sanjeev-durge.vercel.app/articles/hello-world</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/articles/modern-styling-in-react</loc>
+    <loc>https://sanjeev-durge.vercel.app/articles/modern-styling-in-react</loc>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>

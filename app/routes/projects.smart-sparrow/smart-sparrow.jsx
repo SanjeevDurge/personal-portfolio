@@ -70,14 +70,14 @@ const EarthSection = lazy(() =>
   import('./earth').then(module => ({ default: module.EarthSection }))
 );
 
-const title = 'Designing the future of education';
+const title = 'Nexora \u2014 AI-Powered Product Discovery';
 const description =
-  'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
+  'Built a RAG-powered e-commerce platform using Neo4j vector search, GCP BigQuery, and LLM-based re-ranking, improving discovery precision by 52% and reducing search abandonment by 38%.';
 const roles = [
-  'Art Direction',
-  'UX and UI Design',
-  'Front End Development',
-  'Motion Design',
+  'RAG Architecture',
+  'Neo4j Vector Search',
+  'GCP BigQuery',
+  'LLM Re-ranking',
 ];
 
 export const meta = () => {
@@ -105,7 +105,7 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.smartsparrow.com/"
+          url="https://nexora-api-73508499658.us-central1.run.app/"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -126,21 +126,15 @@ export const SmartSparrow = () => {
                   : imageSprLessonBuilderLightPlaceholder
               }
               sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 800px, 1000px`}
-              alt="The aero lesson builder app dragging an audio component into a screen about plant cells."
+              alt="Nexora AI product discovery platform showing personalized search results"
             />
           </ProjectSectionContent>
         </ProjectSection>
         <ProjectSection>
           <ProjectTextRow>
-            <ProjectSectionHeading>The problem</ProjectSectionHeading>
+            <ProjectSectionHeading>The Challenge</ProjectSectionHeading>
             <ProjectSectionText>
-              In 2017, Smart Sparrow began a project to build an entirely new platform to
-              from the ground up to serve as the most powerful tool for educators to
-              create online learning experiences. The old platform was built in Flash, and
-              there were a number of user experience problems to solve in the process of
-              moving the platform to Javascript. The primary goals for the project were
-              reducing barriers to collaboration, and making the platform both easier for
-              new users, but with plenty of room to scale for advanced users.
+              Traditional e-commerce search relies on keyword matching, missing the semantic intent behind user queries. Product discovery suffered from low precision, high abandonment rates, and an inability to leverage user behavior signals for personalization. The goal was to build an intelligent search system that combines knowledge graphs, vector embeddings, and LLM-powered re-ranking to deliver contextually relevant results.
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
@@ -160,7 +154,7 @@ export const SmartSparrow = () => {
                   ? imageSprComponentsDarkPlaceholder
                   : imageSprComponentsLightPlaceholder
               }
-              alt={`A set of ${theme} themed components for the aero design system`}
+              alt="Nexora system architecture diagram"
               sizes="100vw"
             />
             <ProjectTextRow>
@@ -173,13 +167,9 @@ export const SmartSparrow = () => {
               </SegmentedControl>
             </ProjectTextRow>
             <ProjectTextRow>
-              <ProjectSectionHeading>The aero design system</ProjectSectionHeading>
+              <ProjectSectionHeading>RAG Architecture</ProjectSectionHeading>
               <ProjectSectionText>
-                To streamline the design process across designers and engineers for such a
-                large project, it was important to lay the foundations with a strong,
-                flexible design system that could evolve during the product’s development
-                cycle. This would inform both the aesthetics and user experience across
-                the product itself as well as the website and marketing material.
+                The platform is built on a Retrieval-Augmented Generation (RAG) architecture using Neo4j for graph-based product relationships, vector embeddings for semantic similarity search, and GCP BigQuery for analytics. An LLM-based re-ranking layer processes candidate results using clickstream signals and user context to deliver highly personalized recommendations.
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -201,16 +191,13 @@ export const SmartSparrow = () => {
                   ? imageSprDesignSystemDarkPlaceholder
                   : imageSprDesignSystemLightPlaceholder
               }
-              alt="The homepage of the aero design system docs website linking to principles and components."
+              alt="Nexora search pipeline visualization"
               sizes="100vw"
             />
             <ProjectTextRow>
-              <ProjectSectionHeading>Design system docs</ProjectSectionHeading>
+              <ProjectSectionHeading>Results & Impact</ProjectSectionHeading>
               <ProjectSectionText>
-                A design system is useless if no one knows how to use it, so we put
-                together a comprehensive documentation website to cover principles, ux,
-                accessibility, and component guidelines for designers and engineers
-                working with the system.
+                The Nexora platform improved discovery precision by 52% and reduced search abandonment by 38% across the product catalog. The combination of graph-based relationships and vector search enabled users to find products through natural language queries, while clickstream-driven re-ranking ensured results improved over time with usage.
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -232,12 +219,9 @@ export const SmartSparrow = () => {
             <ProjectSectionColumns width="full">
               <ProjectSectionContent width="full">
                 <ProjectTextRow width="s">
-                  <ProjectSectionHeading>Motion design</ProjectSectionHeading>
+                  <ProjectSectionHeading>Technical Stack</ProjectSectionHeading>
                   <ProjectSectionText>
-                    Animation was a core principle in making the authoring experience a
-                    more understandable process. Elements animate in ways that indicate
-                    the cause and effect of each interaction to improve the fluidity of
-                    the overall experience.
+                    Built with Python, FastAPI, Neo4j, GCP BigQuery, and deployed on Google Cloud Run. The system processes product embeddings via sentence transformers, stores them in Neo4j vector indices, and uses LangChain for orchestrating the LLM re-ranking pipeline.
                   </ProjectSectionText>
                 </ProjectTextRow>
               </ProjectSectionContent>

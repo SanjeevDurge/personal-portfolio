@@ -1,29 +1,28 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
+ ___  ____
+/ __||  _ \
+\__ \| |_| |
+|___/|____/
 
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DESIGNER | デザイナー
+DATA SCIENTIST
 
-Hamish Williams
-Hand crafted design & web development
+Sanjeev Durge
+Data Science, ML Engineering & AI Innovation
 
-Design tools:
-Figma
-Photoshop
-Blender
+Tools & Platforms:
+Python, PyTorch, TensorFlow, LangChain
+GCP, Azure, AWS, Databricks
 
-twitter.com/hamishmw
-github.com/hamishmw
+linkedin.com/in/durgesanjeev
+github.com/SanjeevDurge
 
 _______________________________________________________________________________
 
-TECHNOLOGY | テクノロジー
+TECHNOLOGY
 
 React
 Remix
@@ -32,7 +31,7 @@ Framer Motion
 
 _______________________________________________________________________________
 
-FONTS | フォント
+FONTS
 
 Gotham
 IPA Gothic Regular

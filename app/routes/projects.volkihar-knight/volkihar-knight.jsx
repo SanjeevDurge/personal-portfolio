@@ -47,10 +47,15 @@ const Carousel = lazy(() =>
 
 const Armor = lazy(() => import('./armor').then(module => ({ default: module.Armor })));
 
-const title = 'Volkihar Knight';
+const title = 'Search Ranking \u0026 Personalization at Scale';
 const description =
-  'A lore-friendly armor mod for The Elder Scrolls V: Skyrim. Released on PC and Xbox One with over one million downloads across both platforms.';
-const roles = ['3D Modelling', 'Texturing', 'Graphic Design'];
+  'Engineered search ranking and user personalization systems at Inviz.ai for major e-commerce platforms including Nasdaq, Croma, and Tatacliq, serving 20M+ users with behavioral segmentation and FAISS-based re-ranking.';
+const roles = [
+  'Search Ranking',
+  'FAISS',
+  'PySpark',
+  'A/B Testing',
+];
 
 export const meta = () => {
   return baseMeta({ title, description, prefix: 'Projects' });

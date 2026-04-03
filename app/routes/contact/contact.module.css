@@ -305,6 +305,71 @@
   margin-right: var(--spaceS);
 }
 
+.description {
+  margin-bottom: var(--spaceXL);
+  transition-property: opacity;
+  transition-timing-function: var(--bezierFastoutSlowin);
+  transition-duration: var(--durationXL);
+  transition-delay: var(--delay);
+  opacity: 0;
+
+  @media (--mediaUseMotion) {
+    transition-property: transform, opacity;
+    transform: translate3d(0, var(--space3XL), 0);
+  }
+
+  &[data-status='entering'],
+  &[data-status='entered'] {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spaceL);
+  margin-bottom: var(--space2XL);
+  transition-property: opacity;
+  transition-timing-function: var(--bezierFastoutSlowin);
+  transition-duration: var(--durationXL);
+  transition-delay: var(--delay);
+  opacity: 0;
+
+  @media (--mediaUseMotion) {
+    transition-property: transform, opacity;
+    transform: translate3d(0, var(--space3XL), 0);
+  }
+
+  &[data-status='entering'],
+  &[data-status='entered'] {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: var(--spaceM);
+  color: var(--textBody);
+  text-decoration: none;
+  padding: var(--spaceM) var(--spaceL);
+  border: 1px solid rgb(var(--rgbPrimary) / 0.2);
+  border-radius: var(--spaceXS);
+  transition: background var(--durationM) ease, border-color var(--durationM) ease, color var(--durationM) ease;
+
+  &:hover {
+    background: rgb(var(--rgbPrimary) / 0.1);
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+
+  & svg {
+    fill: currentColor;
+  }
+}
+
 .footer {
   opacity: 0;
 
